@@ -1,13 +1,13 @@
 # MeinSpider
 <p><strong>A simple web crawler made with node.js and cheerio </strong></p>
 <h2>Installation</h2>
-<p>Linux/Ubuntu:<br><pre>git clone https://github.com/S0ngyuLi/MeinSpider</pre><br>
- You may need to enter <br><pre>npm install cheerio</pre><br>
+<p>Linux/Ubuntu:<br><pre>git clone https://github.com/S0ngyuLi/MeinSpider</pre>
+ You may need to enter <br><pre>npm install cheerio</pre>
 to install cheerio, which is what this app is built upon.
 </p>
 <h2>Usage</h2>
 
-<pre>Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]</pre><br>
+<pre>Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]</pre>
 <p>
 Here is an example: node ./index.js blah.net blah.net/article 1000 .p article<br>
 Please make sure you enter correct jquery selector in the last few arguments, otherwise cheerio will throw errors.<br>
