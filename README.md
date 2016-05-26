@@ -16,7 +16,7 @@ Enter --help for more info</p>
 <h2>Version</h2>
 <p>Current version is 0.0.1.</p>
 <h2>New Features in the future</h2>
-<p>In the next version users are able to download images in the webpages crawled, and also sort and rename those images.</p>
+<p>In the next version users will be able to download images in the webpages crawled, and also sort and rename those images.</p>
 <h2>License</h2>
 <p>MeinSpider: a free web crawler made with node.js<br>
     Copyright (C) 2016  Songyu Li<br>
