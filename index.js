@@ -18,7 +18,7 @@ if(count <= 5){
 	console.log('Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]\nEnter --help for more info');
 	process.exit(1);
 }
-
+console.log('MeinSpider Copyright (C) 2016 Songyu Li');
 var main_url = argv[2];
 //example: 'http://www.hf168.net';
 var starting_url = argv[3];
