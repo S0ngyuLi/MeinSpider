@@ -1,0 +1,33 @@
+{
+	"name": "MeinSpider",
+	"description": "A simple web crawler made with node.js and cheerio",
+	"version": "0.0.1",
+	"keywords": [
+		"crawler",
+		"spider"
+	],
+	"bugs": {  
+  "url": "https://github.com/S0ngyuLi/MeinSpider/issues",
+  "email": "lisongyu2009@gmail.com"
+	},
+	"maintainers": [
+		{
+			"name": "Songyu Li",
+			"email": "lisongyu2009@gmail.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "GNU"
+		}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/S0ngyuLi/MeinSpider"
+		}
+	],
+	"dependencies": {
+		"cheerio" :	"*"
+	}
+}
