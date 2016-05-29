@@ -14,7 +14,7 @@ Please make sure you enter correct jquery selector in the last few arguments, ot
 Check <a href = 'http://api.jquery.com/category/selectors/'>this page</a> to learn more about jquery selectors.<br> 
 Enter --help for more info</p>
 <h2>Version</h2>
-<p>Current version is 0.0.1.</p>
+<p>Current version is 0.0.2.</p>
 <h2>New Features in the future</h2>
 <p>In the next version users are able to download images in the webpages crawled, and also sort and rename those images.</p>
 <h2>License</h2>
