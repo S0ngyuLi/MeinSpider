@@ -1,13 +1,13 @@
 # MeinSpider
 <p><strong>A simple web crawler made with node.js and cheerio </strong></p>
 <h2>Installation</h2>
-<p>Linux/Ubuntu:<br><pre>git clone https://github.com/S0ngyuLi/MeinSpider</pre>
- You may need to enter <br><pre>npm install cheerio</pre>
+<p>Linux/Ubuntu:<br><pre>git clone https://github.com/S0ngyuLi/MeinSpider</pre><br>
+ You may need to enter <br><pre>npm install cheerio</pre><br>
 to install cheerio, which is what this app is built upon.
 </p>
 <h2>Usage</h2>
 
-<pre>Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]</pre>
+<pre>Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]</pre><br>
 <p>
 Here is an example: node ./index.js blah.net blah.net/article 1000 .p article<br>
 Please make sure you enter correct jquery selector in the last few arguments, otherwise cheerio will throw errors.<br>
@@ -16,7 +16,7 @@ Enter --help for more info</p>
 <h2>Version</h2>
 <p>Current version is 0.0.1.</p>
 <h2>New Features in the future</h2>
-<p>In the next version users will be able to download images in the webpages crawled, and also sort and rename those images.</p>
+<p>In the next version users are able to download images in the webpages crawled, and also sort and rename those images.</p>
 <h2>License</h2>
 <p>MeinSpider: a free web crawler made with node.js<br>
     Copyright (C) 2016  Songyu Li<br>
