@@ -5,18 +5,23 @@ if(argv[2]=='--help'){
 	process.exit();
 }
 
-if(count <= 5){
-	console.log('Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]\nEnter --help for more info');
-	process.exit(1);
+if(argv[2]=='--pic'){	//image crawler mode
+	
 }
-console.log('MeinSpider Copyright (C) 2016 Songyu Li');
+else{
+	if(count <= 5){
+		console.log('Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector...]\nEnter --help for more info');
+		process.exit(1);
+	}
+	console.log('MeinSpider Copyright (C) 2016 Songyu Li');
 
-var count = argv.length;			
-var jquery = '';
-var i = 5;
-while(i<count){
-	jquery += (' '+argv[i]);
-	i++;
+	var count = argv.length;			
+	var jquery = '';
+	var i = 5;
+	while(i<count){
+		jquery += (' '+argv[i]);
+		i++;
+	}
+
+	var Parser = require('./lib/parse.js').init(argv[2], argv[3], argv[4], jquery);
 }
-
-var Parser = require('./lib/parse.js').init(argv[2], argv[3], argv[4], jquery);
