@@ -20,7 +20,7 @@ Enter --help for more info</p>
 MeinSpider: a free web crawler made with node.js<br>
 
 ```
-Copyright (C) 2016  Songyu Li<br>
+Copyright (C) 2016  Songyu Li
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
