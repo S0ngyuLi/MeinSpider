@@ -1,7 +1,7 @@
 
 var argv = process.argv;
 if(argv[2]=='--help'){
-	console.log('This is a spider program that helps you grab text information online. If you choose to grab text, your final results are in ./artical.txt.');
+	console.log('This is a crawler program that helps you grab text information online. If you choose to grab text, your final results are in ./artical.txt.');
 	console.log('If you choose to grab images, your results will be shown in directory /images');
 	console.log('Text Usage: node ./index.js [domain] [url] [num of entries needed] [jquery selector] ...\nEnter --help for more info');
 	console.log('Image Usage: node ./index.js --pic [domain] [url] [num of albums] [jquery selectors] ...\nEnter --help for more info');

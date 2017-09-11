@@ -6,9 +6,9 @@
 		"crawler",
 		"spider"
 	],
-	"bugs": {  
-  "url": "https://github.com/S0ngyuLi/MeinSpider/issues",
-  "email": "lisongyu2009@gmail.com"
+	"bugs": {
+		"url": "https://github.com/S0ngyuLi/MeinSpider/issues",
+		"email": "lisongyu2009@gmail.com"
 	},
 	"maintainers": [
 		{
